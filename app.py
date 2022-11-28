@@ -2,8 +2,8 @@ import streamlit as st
 import openai
 from ml_backend import ml_backend
 
-# st.image("https://cdn-icons-png.flaticon.com/512/194/194300.png", width=100)
-st.image("icons.jpg", width=100)
+st.image("https://cdn-icons-png.flaticon.com/512/194/194300.png", width=100)
+# st.image("icons.jpg", width=100)
 st.title("A.I. Based Email Generator Engine")
 st.sidebar.header("About the App:")
 st.sidebar.caption("This app is build using GPT3")
