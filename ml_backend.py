@@ -9,7 +9,7 @@ class ml_backend:
         """Returns a generated an email using GPT3 with a certain prompt and starting sentence"""
 
         response = openai.Completion.create(
-        engine="text-davinci-002",
+        engine="davinci",
         prompt=userPrompt + "\n\n" + start,
         temperature=0.71,
         max_tokens=150,
